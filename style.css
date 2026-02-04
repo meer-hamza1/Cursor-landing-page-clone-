@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+@font-face {
+    font-family: CursorGothic;
+    src: url('./fonts/CursorGothic-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CursorGothic';
+    src: url('fonts/CursorGothic-Italic.woff2');
+}
+
+body{
+    
+    background-color: rgb(20,18,11);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    gap: 12rem;
+    background-color: rgb(20,18,11);
+    
+    
+    
+}
+main{
+    border: 5px solid red;
+    
+    
+}
+.list a{
+    color: rgb(58, 187, 187);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(237,236,236);
+
+    
+}
+.list a:hover{
+    color: rgba(192, 192, 192, 0.849);
+}
+nav .button{
+    margin: 30px;
+}
+nav .btn-1{
+    padding: 7px;
+    border-radius: 20px;
+    background-color: rgb(20,18,11);
+    color:rgb(237,236,236) ;
+    border: 1px solid rgba(192, 192, 192, 0.267);
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+    
+
+nav .btn-2{
+    padding: px;
+    border-radius: 20px;
+    width: 80px;
+    height: 32px;
+    cursor: pointer;
+}
+nav .btn-2:hover{
+    background-color: #ffffffc9;
+}
+nav .logo{
+    
+    margin: 29px;
+    color: rgb(237,236,236);
+    
+    padding-right: 150px;
+}
+main .container1{
+    color: rgb(237,236,236);
+    
+    height: 1200px
+    
+}
+main .container1 .container-hero{
+    
+    margin-top: 100px;
+    font: 1em CursorGothic Fallback;
+}
+main .button-3{
+    padding: 13px;
+    border-radius: 25px;
+    margin: 20px auto;
+    width: 200px;
+    font:  15px sans-serif;
+}
+main .hero{
+    
+    margin-left: 20px;
+    height: 1200px;
+}
+main .hero-img img{
+    
+    margin-top: 25px;
+    width: 98%;
+    box-sizing: border-box;
+}
+
+main .footer-1{
+    
+    text-align: center;
+    margin-top: 50px;
+}
+main .footer-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+main .footer-2 ul {
+    
+    padding: 10px;
+    background-color: rgb(27,25,19);
+    border-radius: 10px;
+    
+    
+}
+main .footer-2 ul img{
+    width: 80px;
+    text-align: center;
+    margin: 10px ;
+
+}
+
+main .container-2{
+    color: white;
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    background-color: rgb(29,27,21);
+
+    
+}
+main .container-2 .write{
+    margin-left: 20px;
+    align-self: center;
+    font-size: 20px;
+}
+main .container-2 .write h4{
+    color: rgb(154,153,150);
+}
+main .container-2 .write a{
+    color: red;
+    text-decoration: none;
+    
+}
+main .container-2 .write .link{
+    margin-top: 15px;
+}
+main .container-2 .img2{
+
+    margin: 20px;
+    box-sizing: border-box;
+    width: 98%;
+}
+main .container-2 .img2 img{
+    margin: 20px;
+    box-sizing: border-box;
+    width: 98%;
+}
+
+nav svg{
+    width: 100PX;
+}
+main .container-3{
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+main .container-3 .para{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+main .cards .card1{
+    height: 40%;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color:  rgb(29,27,21);
+}
+main .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+main .cards .card-user{
+    
+    display: flex;
+    margin-top: 50px;
+    font-size: small;
+}
+main .cards .card-user .info{
+    
+    margin-left: 15px;
+    align-self: center;
+}
+main .cards .card-user img{
+    border-radius: 5px;
+}
+main .cards .card-user span{
+    color:rgb(154,153,150) ;
+}
+main .container-4{
+    margin-top: 140px;
+    margin-left: 20px;
+    
+}
+main .container-4 .para-2{
+    color: #FFFFFF;
+    
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 15px;
+
+}
+
+main .card-2nd-part{
+    color: #FFFFFF;
+    width: 30%;
+    
+
+}
+main .card-2nd-part .crd-1 img{
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 20px;
+    
+
+}
+main .card-2nd-part .crd-1 .write2{
+    
+    padding: 20px;
+}
+main .card-2nd-part .crd-1 .write2 h5{
+    color:rgb(154,153,150) ;
+}
+main .card-2nd-part .crd-1 .link1 {
+    margin-left: 20px;
+}
+main .card-2nd-part .crd-1 .link1 a{
+    text-decoration: none;
+    color: red;
+}
+main .card-2nd-part {
+    display: flex;
+    
+    
+}
+main .card-2nd-part {
+    background-color:  rgb(29,27,21);
+    border-radius: 5px;
+}
+.container-4 .card-container{
+    
+    display: flex;
+    box-sizing: border-box ;
+    justify-content: space-evenly;
+
+}
+main .card-2nd-part .crd-1 img{
+    width: 100%;
+
+}
+.container-5 {
+    
+    margin-left: 50px;
+    margin-top: 10rem;
+    width: 1230px;
+    
+}
+.container-5 .para-3{
+    color: #FFFFFF;
+    
+    margin-bottom: 15px;
+}
+.container-5 .card-container-5{
+    height: 7rem;
+    
+    display: flex;
+    gap: 10px;
+}
+.container-5 .card-container-5 .card-con-5{
+    
+    width: 25%;
+    color: #FFFFFF;
+    padding: 10px;
+    background-color:  rgb(29,27,21);
+    border-radius: 5px;
+}
+.container-5 .uppr{
+    
+    display: flex;
+    color: rgb(154,153,150);
+    margin-top: 10px;
+
+}
+.container-5 .uppr .up1{
+    border: 2px solid rgb(154,153,150);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+
+}
+.container-5 .uppr .up2{
+    
+    margin-left: 20px;
+    align-self: center;
+}
+.container-5 .lower{
+    
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.container-5 .para-3 span{
+    font-size: 35px;
+}
+.container-5 .lnk a{
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.container-5 .lnk{
+    margin-top: 20px;
+}
+.container-5 .card-con-5 .full{
+    border: 2px solid red;
+    
+}
+.container-6{
+    
+    margin-left: 25px;
+    width: 79rem;
+    margin-top: 8rem;
+}
+.container-6 .upper-body{
+    
+    color: #FFFFFF;
+}
+.container-6 .upper-body .upper-para{
+    font-size: 30px;
+}
+.container-6 .upper-body .upper-btn{
+    
+    margin-top: 15px;
+}
+
+.container-6 .upper-body .upper-btn button{
+    padding: 14px 1px;
+    border-radius: 30px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    
+
+}
+.container-6 .upper-body .upper-btn button:hover{
+    background-color: rgb(214, 214, 210) ;
+}
+.container-6 .lower-img{
+    
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.container-6 .lower-img img{
+    box-sizing: border-box;
+    width: 78rem;
+    border-radius: 10px;
+}
+.container-7{
+    color: #FFFFFF;
+    
+    display: flex;
+    background-color:  rgb(27,25,19);
+    margin-top: 10rem;
+}
+.container-7 .right-para{
+    margin-left: 20px;
+    width: 10rem;
+    margin-top: 20px;
+    
+}
+.container-7 .left-box{
+    
+    margin-left: 300px;
+    
+    
+}
+
+.container-7 .left-box .fr-box{
+    
+    padding: 15px;
+    margin: 10px;
+    background-color:  rgb(32,30,24);
+    cursor: pointer;
+
+}
+.container-7 .left-box .fr-box:hover{
+    background-color:  rgba(44, 43, 41, 0.89);
+}
+
+.container-7 .left-box .fr-box .spn1{
+    
+    font-size: 17px;
+
+}
+.container-7 .left-box .fr-box p{
+    color: rgb(154,153,150);
+    margin-top: 7px;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.container-7 .left-box .fr-box .spn2{
+    color: rgb(154,153,150);
+    font-size: 17px;
+}
+.container-7 .con-7{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.container-7 .lnk-7 a{
+    color: red;
+    text-decoration: none;
+
+}
+.container-7 .lnk-7 a:hover{
+    color: rgba(255, 0, 0, 0.685);
+}
+.container-7 .lnk-7{
+    margin-left: 13px;
+    margin-top: 25px;
+}
+.container-8{
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.container-8 .big-box{
+    
+}
+.container-8 .big-box .upper-box{
+
+text-align: center;
+}
+.container-8 .big-box .upper-box span{
+    font-size: 70px;
+}
+.container-8 .big-box .lwr-btn{
+    text-align: center;
+    padding: 16px;
+
+
+}
+.container-8 .big-box .lwr-btn button{
+    padding: 15px 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.container-8 .big-box .lwr-btn button:hover{
+    background-color:  rgba(248, 248, 248, 0.849);
+}
+.container-8 .big-box .lwr-btn button span{
+    font-size: 15px;
+}
+.container-9 {
+   
+    background-color:  rgb(27,25,19);
+    
+}
+div.cnt-9{
+    
+    display: flex;
+    gap: 120px;
+}
+.container-9 .info{
+    color: #FFFFFF;
+    
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.container-9 .info .main{
+    color: rgb(154,153,150);
+    
+}
+.container-9 .info ul{
+    
+    margin-bottom: 15px;
+}
+.container-9 .footer {
+    
+    color: #FFFFFF;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.container-9 .footer .right-f{
+    
+    display: flex;
+    gap: 12px;
+    margin-left: 10px;
+}
+.container-9 .footer .right-f .f-1{
+
+    align-self: center;
+    color: rgb(154,153,150);
+}
+.container-9 .footer .right-f .f-2{
+
+    align-self: center;
+    color: rgb(154,153,150);
+}
+.container-9 .footer .left-f{
+    display: flex;
+    margin-bottom: 5px;
+}
+.container-9 .footer .left-f .f-4 button{
+    padding: 9px 5px;
+    border-radius: 20px;
+    width: 90px;
+    display: flex;
+    font-size: 13px;
+    background-color:rgb(46, 45, 41) ;
+    color: #FFFFFF;
+    
+}
+.container-9 .footer .left-f .f-4 button span{
+    display: flex;
+}
+
+.container-9 .footer .left-f .f-3 button{
+    padding: 9px;
+    
+}
+.container-9 .footer .left-f .f-4{
+    margin-right: 10px;
+    
+}
+.container-9 .footer .left-f .f-4 button{
+    cursor: pointer;
+}
+.container-9 .footer .left-f .f-4 button:hover{
+    background-color:rgb(59, 59, 55) ;
+}
