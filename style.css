@@ -22,12 +22,11 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
+    
 .navbar{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     height: 50px;
-    position: fixed;
     gap: 12rem;
     background-color: rgb(20,18,11);
     
